@@ -1,94 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Offside&family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    margin: 0;
-    font-family: "Roboto Condensed", sans-serif;
+    margin:0;
+    font-family: "Comic Neue";
 }
 
 h1 {
-    margin: 0;
-    font-family: "Offside", sans-serif;
-    color: antiquewhite;
+    margin:0;
+    font-family: "Comic Neue";
 }
 
 header {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #E31111;
-    margin: 0;
-    padding: 0;
+    align-items:center;
+    background-color: #3AAACF;
+    margin:0;
+    padding:0;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logoimg {
-    width: 25%;
-    padding: 10px;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: antiquewhite;
-    margin-right: 30px;
-}
-
-main {
-    height: 70vh;
-}
-
-.container {
-    background-color: #8B0400;
-    display: flex;
-    width: 100%;
-}
-
-.foto {
-    background-image: url(images/banner_footer.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 30%;
-    height: 30vh;
-}
-
-.logof {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-}
-
-h6 {
-    margin: 0;
-    font-family: "Offside", sans-serif;
-    color: antiquewhite;
-    font-size: 20px;
+.logo  {
+    display:flex;
 }
 
 .icon {
-    width: 50%;
+    padding:10px;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    font-size: 40px;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+    margin-right: 30px;
+}
+
+.iconL {
+    color:#FFB970;
+}
+
+.container {
+    background-color: #3AAACF;
     display: flex;
-    align-items: center;
+}
+
+.foo {
+    background-image: url(images/foo\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:30%;
+    height:30vh;
+}
+
+.appss {
+    display:flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    width: 20%;
 }
 
-.logofimg {
-    width: 25%;
-    padding: 10px;
-}
-
-.iconimg {
-    width: 20%;  
+.apps {
+    width:25%;
+    padding:10px;
 }
 
 .copyrightp {
@@ -96,5 +74,5 @@ h6 {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    color: antiquewhite;
+    color: white;
 }
