@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Offside", sans-serif;
+    color: antiquewhite;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E31111;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 25%;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 30px;
+}
+
+main {
+    height: 70vh;
+}
+
+.container {
+    background-color: #8B0400;
+    display: flex;
+    width: 100%;
+}
+
+.foto {
+    background-image: url(images/banner_footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 30vh;
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+h6 {
+    margin: 0;
+    font-family: "Offside", sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logofimg {
+    width: 25%;
+    padding: 10px;
+}
+
+.iconimg {
+    width: 20%;  
+}
+
+.copyrightp {
+    margin-top: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: antiquewhite;
+}
